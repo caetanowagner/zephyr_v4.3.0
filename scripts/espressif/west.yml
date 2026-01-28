@@ -4,12 +4,11 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
 
   projects:
-    # Importa as dependências corretas a partir do repositório local
     - name: zephyr
       remote: upstream
       revision: v4.3.0
+      path: deps/zephyr
       import:
-        # Filtramos apenas o que você precisa para economizar espaço
         name-allowlist:
           - acpica
           - edtt
@@ -34,4 +33,4 @@ manifest:
           - zcbor
 
   self:
-    path: espressif-manifest
+    path: .
