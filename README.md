@@ -1,6 +1,6 @@
 # Introduction to Zephyr
 
-Using the Introduction to Zephyr course from Shawn Himmel and tring to upgrade to zephyr v4.3.0
+Using the Introduction to Zephyr course from Shawn Himmel and trying to upgrade to zephyr v4.3.0
 Linux/macOS:
 
 ```sh
@@ -83,4 +83,5 @@ For more information about configuring the console over USB CDC ACM, see the fol
 ## License
 
 All software in this repository, unless otherwise noted, is licensed under the [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) license.
+
 
